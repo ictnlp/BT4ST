@@ -102,7 +102,7 @@ class SpeechAndTextTranslationTask(LegacyFairseqTask):
         parser.add_argument(
             "--ext-mt-training",
             action="store_true",
-            help="external machine transaltion training",
+            help="external machine translation training",
         )
         parser.add_argument(
             "--tgt-lang",
